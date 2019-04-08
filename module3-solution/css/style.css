@@ -1,0 +1,69 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #DCDCDC;
+  font-family: 'Courgette', cursive;
+}
+
+/*****HEADER*****/
+#nav-list a{
+  color: #000;
+}
+#nav-list a:hover{
+  background-color: #778899;
+}
+/*Restaurant Name*/
+#header-nav {
+  background-color: #696969;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: serif, 'Arial';
+  color: #DCDCDC;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list a{
+	text-align: center;
+}
+/*****END HEADER*****/
+/*****SECTION*****/
+.page_title{
+	margin-bottom: 40px;
+}
+.description{
+	background-color: #778899;
+	margin-bottom: 40px;
+  border: 1px solid #000;
+}
+.description h3{
+  background-color: #696969;
+  border: 1px solid #000;
+}
+.back_to_top{
+	text-align: right;
+}
+.back_to_top a{
+  color: #191970;
+}
+.back_to_top a:hover, .back_to_top a:focus {
+  text-decoration: none;
+  color: #000080;
+  /*text-shadow: 1px 1px 1px #191970;*/
+}
+
+@media (max-width: 767px){
+	.row{
+		padding: 0 10% 0 10%;
+	}
+}
+/*****END SECTION*****/
